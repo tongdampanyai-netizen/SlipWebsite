@@ -1,47 +1,25 @@
-body {
-    font-family: 'Kanit', sans-serif;
-    background: #f0f0f0;
-    text-align: center;
-    padding: 20px;
-}
-
-.container {
-    max-width: 500px;
-    margin: auto;
-}
-
-.login-box, .slip-box {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    margin-top: 20px;
-}
-
-input {
-    width: 80%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-button {
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
 .slip {
-    margin-top: 20px;
     position: relative;
-}
-
-.slip img {
-    width: 100px;
-}
-
-.slip-bg {
-    background: #e0e0e0;
+    width: 400px;
+    height: 250px;
+    background: url('assets/background-slip.png') no-repeat center/cover;
+    border: 1px solid #ccc;
+    border-radius: 10px;
     padding: 20px;
-    margin-top: 10px;
-    border-radius: 8px;
-    color: #333;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+.slip p {
+    margin: 5px 0;
+    color: #000;
+    font-weight: bold;
+}
+
+#bank-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 80px;
+    height: auto;
 }
